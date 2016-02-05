@@ -74,7 +74,7 @@ authorize your application. This is done by redirecting the user to the URL
 returned by tweetlib.TempToken.AuthURL(). (Note that you must save the
 temporary token as it will be necessary later to request the permanent token)
 
-	authorizationURL := tt.AUthURL()
+	authorizationURL := tt.AuthURL()
 	// save tt so it is accessible from the callback later
 	// redirect the user to authorizationURL...
 
